@@ -35,7 +35,20 @@ img {
 	background-color: #0a84bc;
 }
 
-/* Stylesheet for the .food class */
+/* Stylesheet for the .food class. This will effect all class="food" in the index.html file */
 .food {
 	color: #0a84bc;
+}
+
+/* Stylesheet for the .gallery_list class which is a <ul> */
+.gallery_list {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	padding: 0;
+}
+
+/* Stylesheet for .gallery class */
+.gallery {
+	width: 20%;
 }
