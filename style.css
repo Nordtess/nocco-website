@@ -34,3 +34,8 @@ img {
 .title3 {
 	background-color: #0a84bc;
 }
+
+/* Stylesheet for the .food class */
+.food {
+	color: #0a84bc;
+}
