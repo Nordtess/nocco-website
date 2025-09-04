@@ -29,3 +29,8 @@ img {
     width: 40%;
 
 }
+
+/* Stylesheet for title3, . is needed in CSS to select elements by their class name. */
+.title3 {
+	background-color: #0a84bc;
+}
