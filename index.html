@@ -1,90 +1,98 @@
 <!-- First line is always DOCTYPE html to declare what kind of document it is. -->
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
 <!-- Sets the document language to english, praxis to do this. Also the file needs to be inside the html root element. -->
 <html lang="en">
-    <!-- Head keeps information about the webpage itself not the content. -->
-    <head>
-        
-        <!-- Sets the charset to the UTF-8 standard and the title of the website. -->
-        <meta charset="UTF-8">
-        <title>Nocco's Website</title>
+<!-- Head keeps information about the webpage itself not the content. -->
 
-        <!--Links the css file.-->
-        <link rel="stylesheet" href="style.css">
+<head>
 
-        <!--Adds the google font.-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Sets the charset to the UTF-8 standard and the title of the website. -->
+    <meta charset="UTF-8">
+    <title>Nocco's Website</title>
 
+    <!--Links the css file.-->
+    <link rel="stylesheet" href="style.css">
 
-    
-
+    <!--Adds the google font.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
-    </head>
-    <!-- Body keeps the actual content of the page that the user sees and can interact with. -->
-    <body>
-        <!-- Title1 Nocco's Website and the emoji of a dog with Nocco's picture
+
+
+
+
+</head>
+<!-- Body keeps the actual content of the page that the user sees and can interact with. -->
+
+<body>
+    <!-- Title1 Nocco's Website and the emoji of a dog with Nocco's picture
          above the h1 title. Using br (break) to make the title appear under the picture. -->
-        <h1>Nocco's Website &#128021;</h1>
+    <h1>Nocco's Website &#128021;</h1>
 
 
 
-        <!--Adds the image of Nocco and a description of the picture under the image with
+    <!--Adds the image of Nocco and a description of the picture under the image with
         figure and figcaption elements.-->
-        <figure>
-            <img src="nocco1.jpg" alt="logo">
-            <figcaption>A picture of Nocco</figcaption>
-        </figure>
-        
-        <!-- Adds the image nocco1.jpg or alternativ as praxis. Commented it away under. -->
-        <!-- <img src="nocco1.jpg" alt="picture of Nocco"> -->
-        <!-- Title2 Who is Nocco? With bold on is with <strong> -->
-        <h2>Who <strong>is</strong> Nocco?</h2>
-
-        
-        <!-- Adds the image nocco1.jpg or alternativ as praxis. Commented it away under. -->
-        <!-- <img src="nocco1.jpg" alt="picture of Nocco"> -->
-        <!-- Title2 Who is Nocco? -->
-        <h2><mark>Who</mark> is Nocco?</h2>
-
-        <!-- Adds the paragraf Nocco is such a good dog. -->
-        <p>Nocco is such a good dog! She is:</p>
-        <!-- Adds a unsortedlist with li as listitem(s). -->
-        <ul>
-            <li>Loving</li>
-            <li>Careing</li>
-            <li>Magical</li>
-            <li>The best</li>
-        </ul>
-        <!-- Another paragraf with emphasized text on loves. -->
-        <p>She <em>loves</em> to take long walks.</p>
-
-        
-        <!--div is used to make block-level containers to group HTML elements for styling or layout.-->
-        <div> class="title3">
-            <h3> Noccos favorite food: </h3>
-            <p>She really loves meat and bones.</p>
-        </div>
-
-        <p>She also really: </p>
-        <ul>
-            <!--Using the <span> element to make the class food so I can control the words loves and likes in the CSS file.-->
-            <li><span class="food">loves</span> pineapple</li>
-            <li><span class="food">likes</span> cucumber</li>
-        </ul>
-
-
-        <!--A ul that is a class and the images are class gallery to be styled together.-->
-        <ul class="gallery-list">
-            <li><img src="nocco1.jpg" class="gallery"></li>
-            <li><img src="nocco1.jpg" class="gallery"></li>
-        </ul>
+    <figure>
         
 
-    </body>
+        <!--Added a working link to the "webpage" Owner with a link to the owner.html file.-->
+        <a href="owner.html">Owner</a>
+
+        <img src="nocco1.jpg" alt="logo">
+        <figcaption>A picture of Nocco</figcaption>
+    </figure>
+
+    <!-- Adds the image nocco1.jpg or alternativ as praxis. Commented it away under. -->
+    <!-- <img src="nocco1.jpg" alt="picture of Nocco"> -->
+    <!-- Title2 Who is Nocco? With bold on is with <strong> -->
+    <h2>Who <strong>is</strong> Nocco?</h2>
+
+
+    <!-- Adds the image nocco1.jpg or alternativ as praxis. Commented it away under. -->
+    <!-- <img src="nocco1.jpg" alt="picture of Nocco"> -->
+    <!-- Title2 Who is Nocco? -->
+    <h2><mark>Who</mark> is Nocco?</h2>
+
+    <!-- Adds the paragraf Nocco is such a good dog. -->
+    <p>Nocco is such a good dog! She is:</p>
+    <!-- Adds a unsortedlist with li as listitem(s). -->
+    <ul>
+        <li>Loving</li>
+        <li>Careing</li>
+        <li>Magical</li>
+        <li>The best</li>
+    </ul>
+    <!-- Another paragraf with emphasized text on loves. -->
+    <p>She <em>loves</em> to take long walks.</p>
+
+
+    <!--div is used to make block-level containers to group HTML elements for styling or layout.-->
+    <div> class="title3">
+        <h3> Noccos favorite food: </h3>
+        <p>She really loves meat and bones.</p>
+    </div>
+
+    <p>She also really: </p>
+    <ul>
+        <!--Using the <span> element to make the class food so I can control the words loves and likes in the CSS file.-->
+        <li><span class="food">loves</span> pineapple</li>
+        <li><span class="food">likes</span> cucumber</li>
+    </ul>
+
+
+    <!--A ul that is a class and the images are class gallery to be styled together.-->
+    <ul class="gallery-list">
+        <li><img src="nocco1.jpg" class="gallery"></li>
+        <li><img src="nocco1.jpg" class="gallery"></li>
+    </ul>
+
+
+</body>
 
 
 
